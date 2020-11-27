@@ -1,5 +1,6 @@
 name: Update gist with Waka stats
 on:
+  push:
   schedule:
     - cron: "*/5 * * * *"
 jobs:
